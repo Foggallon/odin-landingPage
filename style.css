@@ -133,6 +133,27 @@ button {
     border-radius: 8px;
 }
 
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    background-color: #E5E7EB;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quoted {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .footer {
     display: flex;
     margin-top: auto;
