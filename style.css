@@ -142,6 +142,8 @@ button {
     padding-bottom: 8vh;
     background-color: #E5E7EB;
     height: 25vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -149,13 +151,20 @@ button {
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
-    margin-top: 7vh;
 }
 
 .quoted {
     display: flex;
     justify-content: flex-end;
     font-weight: 700;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    width: 840px;
 }
 
 .sectionFour {
@@ -166,12 +175,18 @@ button {
     padding-bottom: 5vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    height: 24vh;
 }
 
 .banner {
     display: flex;
     flex-direction: row;
     background-color: #3882F6;
+    width: 60vw;
+    height:12vh;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
