@@ -136,22 +136,42 @@ button {
 .sectionThree {
     display: flex;
     flex-direction: column;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     padding-top: 8vh;
     padding-bottom: 8vh;
     background-color: #E5E7EB;
-
+    height: 25vh;
 }
 
 .quote {
+    display: flex;
     font-size: 36px;
     font-weight: lighter;
+    color: #1F2937;
+    margin-top: 7vh;
 }
 
 .quoted {
     display: flex;
     justify-content: flex-end;
+    font-weight: 700;
+}
+
+.sectionFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
 }
 
 .footer {
