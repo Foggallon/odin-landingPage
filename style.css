@@ -66,6 +66,7 @@ a {
     flex-wrap: nowrap;
     width: 600px;
     height: auto;
+    margin-bottom: 3vh;
 }
 
 .secondary {
@@ -73,14 +74,17 @@ a {
     font-size: 18px;
 }
 
-button {
+.button {
     background-color: #3882F6;
     color: #E5E7EB;
-    border: 0;
     border-radius: 8px;
     font-weight: 700;
     padding: 8px;
     width:90px;
+}
+
+.cero {
+    border: 0;
 }
 
 .sectionTwo {
@@ -182,11 +186,24 @@ button {
     display: flex;
     flex-direction: row;
     background-color: #3882F6;
-    width: 60vw;
-    height:12vh;
+    width: 50vw;
+    height: 12vh;
     border-radius: 8px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.title2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 900;
+    color: #E5E7EB;
+}
+
+.uno {
+    border: 2px solid white;
 }
 
 .footer {
@@ -194,4 +211,6 @@ button {
     margin-top: auto;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    height: 7vh;
 }
